@@ -1,25 +1,72 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
 .header{
-    background: yellow;
+    background: chocolate;
     height: 60px;
     line-height: 60px;
     padding: 20px;
     text-align: left;
     display: flex;
     align-items: center;
+    margin: 0px;
+    color: black;
 }
 
-.outline{
-    border: 1px solid black;
-    flex: 1;
+ul{
+    list-style-type: none;
     display: flex;
-    
 }
 
 li{
-    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
 }
 
-.row {
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
     display: flex;
-    flex-flow: row wrap;
-  }
+}
+
+.content{
+    background-color: lightgrey;
+    flex: 7;  
+}
+
+.sidebar{
+    background-color: rgb(31, 31, 31);
+    flex: 3;
+    color: lightgrey;
+    min-height: 500px;
+}
+
+p{
+    margin: 20px;
+}
