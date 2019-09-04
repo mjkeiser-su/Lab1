@@ -1,0 +1,25 @@
+.header{
+    background: yellow;
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.outline{
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+  }
