@@ -70,3 +70,17 @@ a:active{
 p{
     margin: 20px;
 }
+
+.blog-post{
+    margin:10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgb(155, 155, 155);
+}
+
+img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+}
